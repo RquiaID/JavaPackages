@@ -1,0 +1,78 @@
+
+
+                                      Git Class 01
+
+
+1.Why do we need GIT???
+
+2.What is GIT?
+GIt is a version control tool,
+that keep tracks of all the changes that we make in our code and store them in the "LOCAL" repository
+Versions==> any changes that we make in a code creates a new version of it
+
+
+PROBELM!!!!How to communicate to git???
+We can use commands to communicate to GIT
+These are unix style commands
+
+Where to give these commands??????
+On windows we can give commands on GIT BASH
+ON MAC we have TERMINAL where we can give these commands
+
+
+=================================================================
+
+		Lets learn basic UNIX commands
+		to navigate into our machine
+
+1.Open your gitbash in windows     !! open your TERMINAL
+
+type in whoami ==> will return you  your computer name
+
+2.LEts assume that Temrinal is MR TERMINAL
+we want to know where MR terminalis in our computer
+so we ask him that using the command
+pwd
+
+What does PWD stands for??
+(print working directory)
+
+3.Ls  (hey mr terminal can you please tell us that in your current location where you are standing
+what are the files and folders present over there)
+
+*folders are also called directories
+
+4.we want to ask MR terminal to move into another location from its current location
+(change the folder)
+cd foldername
+cd stands change directory
+
+5.HEy mr terminal can you move one folder back ???
+cd .. can be used to ask MR terminal to do that
+
+
+
+commands that we learned
+
+pwd ==>it gives the current location/folder/directory
+ls -->lists out all the content of the current directory/folder
+cd foldername ==> change the location to the specified folder name (if the folder is not present in the location
+where terminal is it will say no such file or directory)
+cd .. ==>go back one folder
+cd ~ ==> to move back Mr terminal to home directory
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+
+ 
+:
+ 
+
+
+ 
+
+
+
+ 

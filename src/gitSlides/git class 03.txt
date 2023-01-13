@@ -1,0 +1,85 @@
+************Git class03**************************
+
+how to track our project using git?
+
+aprraoch:
+1. to decide the correct location for creation of the repository (local)---> inside the project folder
+2.navigate the terminal to the right location--> pwd ,cd ,ls
+3.initialize a repo --> git init
+4.sending the files to the staging area --> git add .
+5.send files to the repository --> git commit -m "Message"
+
+
+
+steps to create the repo on gihtub?
+1. goto github
+2. click on the drop down and select repositories
+3. click on new
+4. give a name
+5. press next
+
+
+what is the url?
+url is the address of ur repo in the github.
+
+
+
+
+
+
+  
+
+
+
+javaBaiscs--> 7 classes
+
+
+you want to track this project (backup on git and gihtub)
+
+
+1.decide the location of repo.  (javaBasics)
+2.Navigate your terminal to the right location.
+3.make sure u are in correct location  (pwd and match the paths)
+4.git init
+5.git add .
+6.git commit -m "all java classes"
+
+
+
+you need to backup on github
+1.go to github.com
+2.create a brand new repo  (name it , create it)
+3.connect the local repo with the remote repo  (git remote add origin URL)
+4.git remote -v --> check if connection is there
+5.git branch -M main --> will tell later why we use
+6.git push -u origin main (the first time)
+
+
+now lets assume u worked on V! and slept by closing your laptop ,
+next day u woke up and u want to work on the same project
+
+1.open the project and code in it.
+once the version is ready and u need to backup
+2.navigate ur temrinal to right location
+3.git add .
+4. git commit -m "v2"
+
+and now if u want to push to github
+git push
+-----------------------------------------------
+
+
+
+
+
+Note:
+Accidently u connected to a wrong remote repository.
+
+1.delete the wrong connection   "git remote remove origin"
+2.add a new connection using the command "git remote add origin URL"  you can
+get the url from the github , goto your repository  clcik on CODE in green , make sure https is selected
+and then copy the URL
+
+
+------------------------------------------------------
+
