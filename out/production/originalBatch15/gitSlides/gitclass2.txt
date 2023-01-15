@@ -1,0 +1,78 @@
+*************************git class02********************
+
+What is a version?
+any chnages in the code
+
+Why do we need git and  github?
+makes our life very easy in order to manage our codes
+
+What is git?
+git is a version control tool.
+
+what is a repository?
+it is a storage area
+
+local repo--> git
+remote repo-->github
+
+what is  github?
+storage of our local repo on the internet./  remote repository
+
+how to communicate with git?
+Unix commands 
+
+the first step whenever we want to keep track(store our codes using git)?
+the location where we will have the repository!!
+
+why do we need navigation commands?
+to move our Mr terminal to location where we want to have the repository!
+
+Commands for navigation:
+pwd-->it tells us the current location of terminal!
+ls-->to list all the files and folders present in the current location
+cd -->move our terminal to another directory/folder.
+cd ..--> to move our terminal one step back
+cd ~--> to move the terminal to home directory
+
+
+**************************
+Step1: Configuring our git  (one time procedure)
+
+
+-------------------
+Track our first project using GIT
+1.create a brand new java project
+a.tell the location where our project is (naviagte to the location of our project using terminal)
+
+**Initalize the repository
+git init
+
+
+Important concept---> Archtiecture of GIT
+3-stage architecture  
+working directory -->the place where we have files of our project
+
+
+**git status--> tells us the current status of our staging area, repo and working directory
+untracked file--> appear in red color and it means that git is not tracking them right now
+tracked files(in staging area)--> appear in green color
+
+** git add filename  or git add . -->tells git which files to track
+
+commit--> saving your file in the repository
+
+**git commit -m "commit message"--> takes a snapshot of all files in staging area and save them to repo
+
+**git log--> it shows all the commits that we have in the repo
+
+
+
+
+---------------------------------------------------------
+
+
+
+
+
+
+
