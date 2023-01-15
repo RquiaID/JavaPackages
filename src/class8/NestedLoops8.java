@@ -12,7 +12,7 @@ public class NestedLoops8 {
                 System.out.println(i*j+" ");
             }
             System.out.println();
-            
+
         }
     }
 }
