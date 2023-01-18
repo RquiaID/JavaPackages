@@ -1,0 +1,25 @@
+Arrays In Java:
+      Arrays allow us to store multiple values in a single variable. We use indexes to get back to the values.
+Why we should learn Array :
+    If we have to store a lot of values. it becomes very hard to manage a lot of variables.
+Syntax of Arrays:
+
+  We can create arrays in two different ways
+First way of creating arrays:
+
+   DataType[] arr={element 1,element 2,element 3};
+   System.out.println(arr[])
+
+Second way of creating arrays:
+    DataType[]arr=new DataType[size]
+
+Note:
+other than using loops we can also use below
+
+ public static void main(String[] args) {
+
+        int[]arr={10,13,20,25,45,50};
+
+        // Below code prints all the elements from an array without a loop
+        System.out.println(Arrays.toString(arr));
+
