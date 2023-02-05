@@ -8,7 +8,7 @@ public class Dog {
 
      static int noOfLegs=4;// static variable; // they are outside method and inside class with word static
      void printFood(){
-          String food="Meat";// local they are only created the moment you need them and occupy for a period of time
+          String food="Meat";// local variables  are only created the moment you need them and occupy for a period of time
           System.out.println(food);
      }
 

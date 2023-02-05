@@ -1,0 +1,33 @@
+Access Modifiers:
+
+   =>Is a mechanism through which we can control which variables should be accessed within  the class or outside the class,
+
+   but in the same package or anywhere inside package. It controls there visibility.
+
+  =>These modifiers control the accessibility of instance or static fields, methods and classes.
+
+  =>Be careful we can not use these access modifiers with local variables.
+
+  => There are four access levels and there are three access modifier keywords.
+
+  1) private is the most restricted one 2)default this one is not actually a keyword 3)protected 4)public
+
+  => How do I make something default? if I don't use any keyword at all,the default is automatically applied.
+
+  => Instance methods the one who don't have static keyword.
+  => Static means one value at a time.
+
+ Constructors:
+
+    Constructors in Java help us create objects easily or initialize the instance fields of a class in a better way.
+
+ Rules:
+
+   1) They are similar to methods, but they don't have return types.
+   2) They have same name as class name.
+   3) We can use all the access modifiers with the constructors.
+   4) static keyword is not allowed with constructors.
+
+   // we can create multiples constructors by creating multiple parameters
+
+

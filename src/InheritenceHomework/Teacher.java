@@ -1,4 +1,4 @@
-package Homeworks;
+package InheritenceHomework;
 
 public class Teacher {
     /*

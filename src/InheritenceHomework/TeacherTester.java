@@ -1,4 +1,6 @@
-package Homeworks;
+package InheritenceHomework;
+
+import InheritenceHomework.Teacher;
 
 public class TeacherTester {
 
