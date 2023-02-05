@@ -1,4 +1,4 @@
-package class19;
+package InheritenceHomework;
 
 import Homeworks.Daughter;
 import InheritenceHomework.Mother;
