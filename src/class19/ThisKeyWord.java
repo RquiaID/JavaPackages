@@ -25,8 +25,8 @@ public class ThisKeyWord {
     }
     void greetings(){ // instance method
 
-        hello();// in here the compiler adds this.hello(); this keyword refers to the current instance methods
-        howAreYou();// this is added implicitly it is there
+       this.hello();// in here the compiler adds this.hello(); this keyword refers to the current instance methods
+       this.howAreYou();// this is added implicitly it is there
 
         // So this key word can refer to current instance variables and instance methoods
     }
