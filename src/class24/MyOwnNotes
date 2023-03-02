@@ -1,0 +1,2 @@
+Abstract and final key keywords are the opposite because in the abstract we need to create a child class to provide
+the implementation whereas for final class we can't create child class. therefore

@@ -1,0 +1,24 @@
+Abstraction:
+
+    Allows us to simplify code by hiding implementation details and only showing the functionality to the user.
+    In java, we can achieve this in two ways 1) Abstract classes 2) interface ( a different way to achieve abstraction in java ) it is exact same way.
+
+Interface:
+    is very similar to an abstract class. We can have private methods, static methods, default methods, abstract method,
+    method can be static in an interface. We can't have instance fields in an interface
+    because we don't have instance fields we also can't have a constructor in an interface.
+
+When we should use interface:
+
+  When objects are closely related to each other and there is " Is a "relationship between classes
+   then we  should go with abstract classes if we want to use abstraction. However, if objects are not related to each other we should
+   implement abstraction with the help of interfaces.
+
+
+
+
+    Note: final is not used in interface.
+    Can abstract class have a constructor=> Yes, it is possible to have a constructor in an abstract class in Java.
+    An abstract class is a class that cannot be instantiated on its own and serves as a base class for other classes to inherit from.
+    When a subclass is created,it can call the constructor of its superclass to initialize its inherited fields.
+

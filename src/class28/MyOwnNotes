@@ -1,0 +1,19 @@
+LinkedList is implemented as a doubly-linked list of nodes, and is optimized for adding or removing elements
+
+in the middle of the list. It provides constant time performance for these operations, which means that adding
+
+or removing an element in the middle of the list has the same cost regardless of the size of the list.
+
+In contrast, ArrayList is implemented as an array, and adding or removing elements in the middle of
+
+the list requires shifting all the subsequent elements. This operation can be expensive and time-consuming,
+
+especially for large lists.
+
+However, if you need to access elements in the list frequently by index, ArrayList may be a better choice
+
+because it provides constant time performance for getting or setting elements by index.
+
+In summary, use LinkedList if you need to add or remove elements frequently in between the list,
+
+and use ArrayList if you need to access elements frequently by index.

@@ -1,0 +1,19 @@
+Loops are not good to use with ArrayList and LinkedList because they are not good with changing the size of ArrayList.
+Also since they are static they can not adapt to size change.
+
+Iterator:
+
+Sets like HashSet, LinkedHashSet, and TreeSet don't allow duplicate values.There are three main types of Sets.
+
+ HashSet:
+  Upside:Fast.
+  Downside:Does not retain the insertion order.
+
+LinkedHashSet:
+ Upside:Retains the insertion order.
+ Downside: it is slower than HashSet.
+
+TreeSet:
+ Upside: it keeps the data sorted
+ Downside: it is the slowest
+
